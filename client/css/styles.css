@@ -1,0 +1,57 @@
+html {
+    font-family: monospace;
+    height: 400px;
+    overflow: hidden;
+    background-color: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3854869028155723) 91%, rgba(0,0,0,0) 100%); 
+}
+
+body {
+    height: 100%;
+}
+
+p {
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+}
+
+pre {
+    margin: 0px;
+    padding: 0px;
+    min-height:10px;
+}
+
+#text-layer {
+    height: 350px;         
+    color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* border: 1px solid green; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+}
+
+#console-inputbar {
+    /* position: fixed; */
+    /* bottom: 0; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#console-directory {
+    margin: 0px;
+}
+
+#console-input {
+    flex-grow: 1;
+    align-items: center;
+    border: none;
+    background: none;
+    color: white;
+    outline: none;
+}
